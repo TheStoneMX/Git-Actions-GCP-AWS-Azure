@@ -17,5 +17,7 @@
     4.- this has to be done by each provider
     5.- Copy from the menu "code-local-" git@github.com:TheStoneMX/Git-Actions-GCP-AWS-Azure.git to each provider shell
     6.- makefile all
-    7.- Create Triggers to be notified when the source code changes so it will recompile the code, generate the Docker file, and push it to Kubernetes
+    
+### If you want Continuous Deployment 
+    1.- Create Triggers to be notified when the source code changes so it will recompile the code, generate the Docker file, and push it to Kubernetes
     
