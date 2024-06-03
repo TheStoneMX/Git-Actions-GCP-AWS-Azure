@@ -10,7 +10,7 @@
     python3 -m ~/.venv; 
     source ~/.venv/bin/activate
 
-# need to create keys for each cloud provider to communicate :
+    0.- need to create keys for each cloud provider to communicate :
     1.- ssh-keygen -t rsa # keys are saved to /home/{user_name}/.ssh/id_rsa.pub
     2.- print out the key cat /home/{user_name}/.ssh/id_rsa.pub
     3.- then create a new key by copying the key and pasted in the GitHub menu-->settings->SSH & GPC Keys
