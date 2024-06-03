@@ -13,9 +13,9 @@
     0.- need to create keys for each cloud provider to communicate :
     1.- ssh-keygen -t rsa # keys are saved to /home/{user_name}/.ssh/id_rsa.pub
     2.- print out the key cat /home/{user_name}/.ssh/id_rsa.pub
-    3.- then create a new key by copying the key and pasted in the GitHub menu-->settings->SSH & GPC Keys
+    3.- then create a new key by copying the key and paste in the GitHub menu-->settings->SSH & GPC Keys
     4.- this has to be done by each provider
     5.- Copy from the menu "code-local-" git@github.com:TheStoneMX/Git-Actions-GCP-AWS-Azure.git to each provider shell
     6.- makefile all
-    7.- Crete Triggers to be notified when the source code changes so it will recompile the code, generate the Docker file, and push it to Kubernetes
+    7.- Create Triggers to be notified when the source code changes so it will recompile the code, generate the Docker file, and push it to Kubernetes
     
